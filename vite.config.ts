@@ -8,6 +8,21 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        index: 'index.html',
+        services: 'services.html',
+        pricing: 'pricing.html',
+        taxArticles: 'tax-articles.html',
+        singleArticle: 'single-article.html',
+        about: 'about.html',
+        contact: 'contact.html',
+        cra: 'cra.html',
+        faq: 'faq.html',
+      }
+    }
+  },
   server: {
     port: 3000,
     host: true,

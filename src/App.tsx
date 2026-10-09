@@ -14,6 +14,8 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 
+import { PricingSection } from './components/PricingSection';
+
 export const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('hero');
 
@@ -37,6 +39,7 @@ export const App: React.FC = () => {
         <StatsBar />
         <TaxCalculator />
         <ServicesSection />
+        <PricingSection />
         <ComparisonMatrix />
         <ProcessSection />
         <CraHubSection />

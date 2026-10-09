@@ -57,6 +57,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
               {[
                 { id: 'hero', label: 'Home' },
                 { id: 'services', label: 'Services' },
+                { id: 'pricing', label: 'Pricing' },
                 { id: 'calculator', label: 'Tax Estimator' },
                 { id: 'cra-hub', label: 'CRA Resource' },
                 { id: 'tax-articles', label: 'Tax Articles' },

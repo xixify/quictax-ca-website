@@ -877,6 +877,7 @@ h1, h2, h3, h4, h5, h6 {
   .articles-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-grid { grid-template-columns: repeat(3, 1fr); }
   .footer-grid { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -888,4 +889,324 @@ h1, h2, h3, h4, h5, h6 {
   .process-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .section-h2 { font-size: 1.85rem; }
+  .pricing-grid { grid-template-columns: 1fr; }
 }
+
+/* ==========================================================================
+   TAXHELP.CA INSPIRATION - INTAKE CALLBACK FORM & TRUST STRIP
+   ========================================================================== */
+.jotform-shell {
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 12px;
+  padding: 1.75rem;
+  box-shadow: 0 10px 25px -5px rgba(12, 27, 51, 0.1);
+}
+
+.callback-form__intro {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.callback-form__intro h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0C1B33;
+}
+
+.callback-form__intro p {
+  font-size: 0.825rem;
+  color: #64748B;
+  margin-top: 0.25rem;
+}
+
+.callback-form__field {
+  margin-bottom: 1rem;
+}
+
+.callback-form__field label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0C1B33;
+  margin-bottom: 0.35rem;
+}
+
+.callback-form__field input,
+.callback-form__field select,
+.callback-form__field textarea {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.875rem;
+  border: 1px solid #CBD5E1;
+  border-radius: 6px;
+  background-color: #F8FAFC;
+  color: #0C1B33;
+  font-family: var(--font-sans);
+  transition: all 0.15s ease;
+}
+
+.callback-form__field input:focus,
+.callback-form__field select:focus,
+.callback-form__field textarea:focus {
+  outline: none;
+  border-color: #0284C7;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+
+/* Trust Recognition Strip (TaxHelp.ca Style) */
+.trust-strip {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 1.25rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #E2E8F0;
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.trust-label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: #64748B;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.trust-badge-text {
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: #0C1B33;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* ==========================================================================
+   VERTICALCPA PRICING PAGE STYLING
+   ========================================================================== */
+.pricing-section {
+  background-color: #F8FAFC;
+  padding: 4.5rem 0;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.pricing-card {
+  background-color: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: #0284C7;
+}
+
+.pricing-card.featured {
+  border: 2px solid #0284C7;
+  box-shadow: 0 10px 30px -5px rgba(2, 132, 199, 0.2);
+}
+
+.pricing-featured-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0284C7;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+}
+
+.pricing-card-header {
+  border-bottom: 1px solid #E2E8F0;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card-title {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #0C1B33;
+}
+
+.pricing-card-subtitle {
+  font-size: 0.825rem;
+  color: #64748B;
+  margin-top: 0.25rem;
+}
+
+.pricing-card-price {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #0C1B33;
+  font-family: var(--font-heading);
+  margin: 1rem 0 0.25rem;
+}
+
+.pricing-card-price span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748B;
+}
+
+.pricing-features-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-features-list li {
+  font-size: 0.875rem;
+  color: #334155;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.pricing-features-list li .check-icon {
+  color: #10B981;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+/* Pricing Toggle Buttons */
+.pricing-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+  background: #E2E8F0;
+  padding: 0.35rem;
+  border-radius: 8px;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-toggle-btn {
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.pricing-toggle-btn.active {
+  background: #FFFFFF;
+  color: #0284C7;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Add-on Services Table (VerticalCPA Style) */
+.addon-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #CBD5E1;
+  background: #FFFFFF;
+}
+
+.addon-table th {
+  background: #0C1B33;
+  color: #FFFFFF;
+  padding: 1rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.addon-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #E2E8F0;
+  font-size: 0.875rem;
+  color: #334155;
+}
+
+.addon-table tr:last-child td {
+  border-bottom: none;
+}
+
+.addon-table tr:nth-child(even) td {
+  background: #F8FAFC;
+}
+
+/* Google Reviews Section */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.review-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-stars {
+  color: #F59E0B;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.review-text {
+  font-size: 0.875rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.review-author {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #0C1B33;
+}
+
+.review-location {
+  font-size: 0.75rem;
+  color: #64748B;
+}
+

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing — QuicTax | Transparent Fixed Tax & Accounting Packages</title>
+  <meta name="description" content="Fixed, transparent tax preparation & accounting pricing for Canadians. Outsource your T1 personal, self-employed, corporate T2, or unfiled returns without hourly billing surprises.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="header-top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span style="color: #0284C7; font-weight: 800; display: flex; align-items: center; gap: 6px;">
+          <span class="pulse-blue"></span> Tax Specialists Online Now
+        </span>
+        <span style="color: #CBD5E1;">|</span>
+        <span style="color: #334155;">⚡ Avg Response: &lt; 15 mins</span>
+        <span style="color: #CBD5E1;">|</span>
+        <span style="color: #334155;">🛡️ CRA NETFILE Certified</span>
+      </div>
+      <div class="top-bar-right">
+        <span style="color: #334155;">📍 Mississauga, ON (Serving All of Canada Remote)</span>
+        <a href="tel:+12895275237" style="color: #0284C7; font-weight: 800;">📞 (289) 527-5237</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">
+          <div class="logo-icon">Q</div>
+          <div class="logo-text">
+            Quic<span>Tax</span><span class="logo-tag">.ca</span>
+          </div>
+        </a>
+
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="services.html" class="nav-link">Services</a>
+          <a href="pricing.html" class="nav-link active">Pricing</a>
+          <a href="#calculator" class="nav-link">Tax Estimator</a>
+          <a href="cra.html" class="nav-link">CRA Hub</a>
+          <a href="tax-articles.html" class="nav-link">Tax Articles</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="faq.html" class="nav-link">FAQ</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-ctas">
+          <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20ask%20about%20your%20tax%20pricing%20packages." target="_blank" class="btn btn-whatsapp">
+            💬 Chat on WhatsApp
+          </a>
+          <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Pricing Hero Section (VerticalCPA Header + TaxHelp Callback Form) -->
+    <section class="hero-section" style="background-color: #F8FAFC;">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              💰 TRANSPARENT FIXED PRICING • ZERO HOURLY BILLING SURPRISES
+            </div>
+            
+            <h1 class="hero-title">
+              Accountants You’ll <br>
+              <span class="highlight-text">Want to Talk To.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              We use fixed, upfront pricing so you can consult with our Canadian tax specialists without worrying about hourly billing meters. From individual returns to corporate tax and monthly bookkeeping.
+            </p>
+
+            <div class="hero-chips-grid">
+              <div class="chip-card">💸 $0 Hidden Fees</div>
+              <div class="chip-card">⚡ Upfront Quotes</div>
+              <div class="chip-card">🔒 CRA NETFILE Certified</div>
+              <div class="chip-card">🇨🇦 All Canada Remote</div>
+            </div>
+
+            <div class="hero-ctas">
+              <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20a%20pricing%20quote%20for%20my%20tax%20return." target="_blank" class="btn btn-whatsapp" style="padding: 0.9rem 1.8rem;">
+                💬 Request Custom Quote on WhatsApp →
+              </a>
+              <a href="#plans" class="btn btn-outline">
+                📊 View All Pricing Packages
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Confidential Request Form (TaxHelp.ca Style) -->
+          <div class="jotform-shell">
+            <div class="callback-form__intro">
+              <h3>Request a Call Back / Instant Quote</h3>
+              <p>Tell us about your tax situation and our specialist will review your exact fixed fee.</p>
+            </div>
+            <form class="callback-form" action="https://wa.me/12895275237" method="GET" target="_blank">
+              <div class="callback-form__field">
+                <label for="pricing-name">Full Name *</label>
+                <input type="text" id="pricing-name" placeholder="John Doe" required>
+              </div>
+
+              <div class="callback-form__field">
+                <label for="pricing-email">Email Address *</label>
+                <input type="email" id="pricing-email" placeholder="john@example.com" required>
+              </div>
+
+              <div class="callback-form__field">
+                <label for="pricing-phone">Phone Number *</label>
+                <input type="tel" id="pricing-phone" placeholder="(416) 555-0199" required>
+              </div>
+
+              <div class="callback-form__field">
+                <label for="pricing-service">Service Needed *</label>
+                <select id="pricing-service" required>
+                  <option value="Personal T1 Return ($99+)">Personal T1 Return ($99+)</option>
+                  <option value="Freelancer / Self-Employed ($249+)">Freelancer / Self-Employed ($249+)</option>
+                  <option value="Corporate T2 Return ($899+)">Corporate T2 Return ($899+)</option>
+                  <option value="Unfiled Taxes / Back Tax Years">Unfiled Taxes / Back Tax Years</option>
+                  <option value="CRA Audit Representation">CRA Audit Representation</option>
+                  <option value="Monthly Bookkeeping Package">Monthly Bookkeeping Package</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.85rem; font-weight: 800;">
+                Get Fixed Quote on WhatsApp →
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Toggle & Package Cards Section (VerticalCPA Style) -->
+    <section id="plans" class="section" style="background-color: #FFFFFF;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">TRANSPARENT PACKAGES</span>
+          <h2 class="section-h2">All-in-One Tax & Accounting Packages</h2>
+          <p class="section-p">Select a plan designed for your category. No hidden slip fees, no surprise consultations, 100% upfront clarity.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <!-- Plan 1: Personal T1 -->
+          <div class="pricing-card">
+            <div>
+              <div class="pricing-card-header">
+                <div class="pricing-card-title">Personal Tax Return (T1)</div>
+                <div class="pricing-card-subtitle">For individuals, employees & families</div>
+                <div class="pricing-card-price">$99 <span>/ return</span></div>
+              </div>
+
+              <ul class="pricing-features-list">
+                <li><span class="check-icon">✓</span> T1 General Return & CRA NETFILE Submission</li>
+                <li><span class="check-icon">✓</span> Up to 3 T4 / T4A / T5 Income Slips included</li>
+                <li><span class="check-icon">✓</span> Max RRSP, TFSA & FHSA Deduction Scanning</li>
+                <li><span class="check-icon">✓</span> Medical, Tuition & Donation Credits</li>
+                <li><span class="check-icon">✓</span> Prior Year NOA Verification & Audit Protection</li>
+                <li><span class="check-icon">✓</span> 48-Hour Turnaround Guaranteed</li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20file%20my%20Personal%20T1%20Tax%20Return%20($99)." target="_blank" class="btn btn-primary" style="width: 100%;">
+              File Personal T1 →
+            </a>
+          </div>
+
+          <!-- Plan 2: Freelance & Self-Employed (T2125) - FEATURED -->
+          <div class="pricing-card featured">
+            <div class="pricing-featured-badge">MOST POPULAR FOR GIG WORKERS</div>
+            <div>
+              <div class="pricing-card-header">
+                <div class="pricing-card-title">Freelancer & Self-Employed</div>
+                <div class="pricing-card-subtitle">For contractors, Uber, consultants & sole props</div>
+                <div class="pricing-card-price">$249 <span>/ return</span></div>
+              </div>
+
+              <ul class="pricing-features-list">
+                <li><span class="check-icon">✓</span> Everything in Personal T1 Package</li>
+                <li><span class="check-icon">✓</span> Form T2125 Statement of Business Activities</li>
+                <li><span class="check-icon">✓</span> Vehicle Mileage & Gas Expense Optimization</li>
+                <li><span class="check-icon">✓</span> Home Office, Internet & Mobile Write-offs</li>
+                <li><span class="check-icon">✓</span> HST/GST Annual Return Reconciliation</li>
+                <li><span class="check-icon">✓</span> Self-Employment CPP Calculation & Savings</li>
+                <li><span class="check-icon">✓</span> Direct WhatsApp Support from Tax Specialist</li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20file%20my%20Freelancer/Self-Employed%20T2125%20Return%20($249)." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+              File Freelance Return →
+            </a>
+          </div>
+
+          <!-- Plan 3: Corporate T2 Filing -->
+          <div class="pricing-card">
+            <div>
+              <div class="pricing-card-header">
+                <div class="pricing-card-title">Corporate T2 Tax Filing</div>
+                <div class="pricing-card-subtitle">For incorporated Canadian businesses</div>
+                <div class="pricing-card-price">$899 <span>/ return</span></div>
+              </div>
+
+              <ul class="pricing-features-list">
+                <li><span class="check-icon">✓</span> Complete T2 Corporate Income Tax Return</li>
+                <li><span class="check-icon">✓</span> GIFI Financial Statement Integration</li>
+                <li><span class="check-icon">✓</span> Small Business Deduction (9% Federal CCPC Rate)</li>
+                <li><span class="check-icon">✓</span> Shareholder Dividend & Salary Tax Optimization</li>
+                <li><span class="check-icon">✓</span> HST/GST Corporate Return Filing</li>
+                <li><span class="check-icon">✓</span> CRA Corporate EFILE Direct Submission</li>
+                <li><span class="check-icon">✓</span> Complete Filing Summary PDF Binder</li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20a%20quote%20for%20Corporate%20T2%20Tax%20Filing%20($899)." target="_blank" class="btn btn-navy" style="width: 100%;">
+              File Corporate T2 →
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Monthly Accounting & Virtual CFO Packages (VerticalCPA Style) -->
+    <section class="section" style="background-color: #F8FAFC;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">FULL-SERVICE MONTHLY PACKAGES</span>
+          <h2 class="section-h2">Monthly Bookkeeping & Accounting Tiers</h2>
+          <p class="section-p">Outsource your entire back office. Bookkeeping, financial statements, year-end tax returns, and unlimited specialist access.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <!-- Monthly Silver -->
+          <div class="pricing-card">
+            <div>
+              <div class="pricing-card-header">
+                <div class="pricing-card-title">Silver Package</div>
+                <div class="pricing-card-subtitle">Essential bookkeeping & tax for small businesses</div>
+                <div class="pricing-card-price">$199 <span>/ month</span></div>
+              </div>
+
+              <ul class="pricing-features-list">
+                <li><span class="check-icon">✓</span> Monthly Bookkeeping & Transaction Categorization</li>
+                <li><span class="check-icon">✓</span> Cloud Accounting (QuickBooks Online / Xero)</li>
+                <li><span class="check-icon">✓</span> Quarterly Financial Statements (P&L, Balance Sheet)</li>
+                <li><span class="check-icon">✓</span> Annual Corporate T2 or T2125 Tax Filing Included</li>
+                <li><span class="check-icon">✓</span> HST/GST Filing Reconciliation</li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20join%20the%20Silver%20Monthly%20Package%20($199/mo)." target="_blank" class="btn btn-outline" style="width: 100%;">
+              Choose Silver Plan →
+            </a>
+          </div>
+
+          <!-- Monthly Gold - FEATURED -->
+          <div class="pricing-card featured">
+            <div class="pricing-featured-badge">RECOMMENDED FOR GROWING BUSINESSES</div>
+            <div>
+              <div class="pricing-card-header">
+                <div class="pricing-card-title">Gold Package</div>
+                <div class="pricing-card-subtitle">Complete accounting, payroll & tax advisory</div>
+                <div class="pricing-card-price">$399 <span>/ month</span></div>
+              </div>
+
+              <ul class="pricing-features-list">
+                <li><span class="check-icon">✓</span> <strong>Everything in Silver Package</strong></li>
+                <li><span class="check-icon">✓</span> <strong>12 One-on-One Specialist Discussions / Year</strong></li>
+                <li><span class="check-icon">✓</span> Monthly Financial Statements & Cash Flow Analysis</li>
+                <li><span class="check-icon">✓</span> Complete Payroll Processing & T4/T5 Slip Prep</li>
+                <li><span class="check-icon">✓</span> Dedicated Tax Planning & Dividend Strategy</li>
+                <li><span class="check-icon">✓</span> Invoicing & Client Billing Support</li>
+                <li><span class="check-icon">✓</span> Priority CRA Audit Defense & Correspondence</li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20join%20the%20Gold%20Monthly%20Package%20($399/mo)." target="_blank" class="btn btn-primary" style="width: 100%;">
+              Choose Gold Plan →
+            </a>
+          </div>
+
+          <!-- Monthly Platinum -->
+          <div class="pricing-card">
+            <div>
+              <div class="pricing-card-header">
+                <div class="pricing-card-title">Platinum Virtual CFO</div>
+                <div class="pricing-card-subtitle">For established corporations scaling fast</div>
+                <div class="pricing-card-price">$799 <span>/ month</span></div>
+              </div>
+
+              <ul class="pricing-features-list">
+                <li><span class="check-icon">✓</span> <strong>Everything in Gold Package</strong></li>
+                <li><span class="check-icon">✓</span> <strong>Weekly Bookkeeping & Real-time Financials</strong></li>
+                <li><span class="check-icon">✓</span> Budgeting, Forecasting & Variance Analysis</li>
+                <li><span class="check-icon">✓</span> Executive KPI Tracking & Dashboard</li>
+                <li><span class="check-icon">✓</span> Corporate Structure Optimization & Tax Minimization</li>
+                <li><span class="check-icon">✓</span> Unlimited Direct WhatsApp / Phone Specialist Access</li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20discuss%20the%20Platinum%20Virtual%20CFO%20Package." target="_blank" class="btn btn-navy" style="width: 100%;">
+              Contact Virtual CFO →
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Add-On & A La Carte Services Table (VerticalCPA Style) -->
+    <section class="section" style="background-color: #FFFFFF;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">A LA CARTE & SPECIALIZED SERVICES</span>
+          <h2 class="section-h2">Add-On & Standalone Tax Relief Services</h2>
+          <p class="section-p">Need help with unfiled back tax years, CRA audits, or objections? We provide clear, fixed a la carte pricing.</p>
+        </div>
+
+        <div style="max-width: 950px; margin: 0 auto; overflow-x: auto;">
+          <table class="addon-table">
+            <thead>
+              <tr>
+                <th style="width: 45%;">Service & Scope</th>
+                <th style="width: 30%;">Turnaround Estimate</th>
+                <th style="width: 25%;">Fixed Pricing</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Unfiled Back-Tax Returns (Per Year)</strong><br><span style="font-size: 0.775rem; color: #64748B;">Personal or Business unfiled years catch-up</span></td>
+                <td>48–72 Hours</td>
+                <td><strong style="color: #0284C7;">$199 / Year</strong></td>
+              </tr>
+              <tr>
+                <td><strong>CRA Audit Representation & Help</strong><br><span style="font-size: 0.775rem; color: #64748B;">Rebuild documentation & negotiate with CRA auditors</span></td>
+                <td>1–2 Weeks</td>
+                <td><strong style="color: #0284C7;">Custom Quote</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Voluntary Disclosures Program (VDP)</strong><br><span style="font-size: 0.775rem; color: #64748B;">Disclose unfiled years to CRA for 100% penalty relief</span></td>
+                <td>2–4 Weeks</td>
+                <td><strong style="color: #0284C7;">Starting at $799</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Notice of Objection Filing</strong><br><span style="font-size: 0.775rem; color: #64748B;">Challenge incorrect CRA Notice of Reassessment</span></td>
+                <td>3–5 Business Days</td>
+                <td><strong style="color: #0284C7;">Starting at $499</strong></td>
+              </tr>
+              <tr>
+                <td><strong>T1OVP RRSP Overcontribution Relief</strong><br><span style="font-size: 0.775rem; color: #64748B;">File T1OVP returns and request CRA 1% monthly penalty waiver</span></td>
+                <td>48 Hours</td>
+                <td><strong style="color: #0284C7;">$299 Flat</strong></td>
+              </tr>
+              <tr>
+                <td><strong>HST/GST Registration & Netfile Submission</strong><br><span style="font-size: 0.775rem; color: #64748B;">Annual or quarterly business sales tax return</span></td>
+                <td>24 Hours</td>
+                <td><strong style="color: #0284C7;">$149 / Filing</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20a%20quote%20for%20an%20add-on%20tax%20service." target="_blank" class="btn btn-whatsapp" style="padding: 0.85rem 2rem;">
+            💬 Get Custom Add-On Quote on WhatsApp →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing FAQs Accordion (VerticalCPA Style) -->
+    <section class="section" style="background-color: #F8FAFC;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">FREQUENTLY ASKED QUESTIONS</span>
+          <h2 class="section-h2">FAQs About Our Pricing Packages</h2>
+          <p class="section-p">Got questions about how billing works, custom packages, or CRA submissions? Here are clear answers.</p>
+        </div>
+
+        <div style="max-width: 850px; margin: 0 auto;">
+          <div class="faq-item open">
+            <div class="faq-item-header">
+              <h3>I just need help with a tax return, can you help me?</h3>
+              <span>▼</span>
+            </div>
+            <div class="faq-item-body">
+              <p>
+                Absolutely! You don't need a monthly subscription. We provide standalone a la carte filing for T1 Personal returns ($99), Freelancer/Self-Employed returns ($249), and Corporate T2 filings ($899). Get in touch with our team today for an instant quote.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item-header">
+              <h3>Can I customize my package with add-ons?</h3>
+              <span>▼</span>
+            </div>
+            <div class="faq-item-body">
+              <p>
+                Yes! The basic packages listed above can be customized with specialized add-ons (such as rental property schedules, crypto gain reporting, prior year catch-ups, or HST returns) to suit your unique situation.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item-header">
+              <h3>How does the billing arrangement work?</h3>
+              <span>▼</span>
+            </div>
+            <div class="faq-item-body">
+              <p>
+                Fees for standalone tax returns are billed on a flat, transparent upfront basis before NETFILE submission. Fees for monthly accounting tiers (Silver, Gold, Platinum) are billed conveniently on a monthly subscription basis with zero long-term lock-in contracts.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item-header">
+              <h3>What if I have unfiled back tax years?</h3>
+              <span>▼</span>
+            </div>
+            <div class="faq-item-body">
+              <p>
+                We specialize in helping Canadians get up to date with unfiled taxes! We prepare prior year T1 or T2 returns at $199 per year and evaluate whether you qualify for the Voluntary Disclosures Program (VDP) to eliminate CRA late-filing penalties.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-item-header">
+              <h3>Are there any hidden slip fees or consultation charges?</h3>
+              <span>▼</span>
+            </div>
+            <div class="faq-item-body">
+              <p>
+                No! Unlike traditional accountants who bill by the hour or charge $15 per extra T4 slip, QuicTax provides 100% transparent quotes. What we quote on WhatsApp is what you pay.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verified Client Reviews (TaxHelp Style) -->
+    <section class="section" style="background-color: #FFFFFF;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge">VERIFIED CLIENT REVIEWS</span>
+          <h2 class="section-h2">Trusted by Canadians Across Canada</h2>
+          <p class="section-p">See what clients say about our transparent pricing and CRA tax resolution services.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"I highly recommend QuicTax / Vertical CPA... my accountant helped me navigate difficulties with CRA after late filing a couple of years. Having someone who knew what they were doing saved me over $30K!! Clear costs from day 1."</p>
+            </div>
+            <div>
+              <div class="review-author">Tony Temple</div>
+              <div class="review-location">Mississauga, ON</div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"He was clear about costs from the start and these were very reasonable. Initial timeline was spot on and kept us updated throughout. Gave me peace of mind in a stressful tax situation."</p>
+            </div>
+            <div>
+              <div class="review-author">Rich B.</div>
+              <div class="review-location">Toronto, ON</div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Due to health reasons our son could not file taxes for several years. Danish handled it expertly with clear flat pricing and got everything up to date with CRA. Outstanding service!"</p>
+            </div>
+            <div>
+              <div class="review-author">Robert Feuerstein</div>
+              <div class="review-location">Brampton, ON</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky WhatsApp Button -->
+  <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20to%20get%20a%20quote%20for%20my%20taxes." target="_blank" class="floating-wa-btn">
+    <span class="pulse-blue"></span>
+    <span>Ask Pricing on WhatsApp</span>
+  </a>
+
+  <!-- Standardized Consistent Light Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo" style="margin-bottom: 0.85rem;">
+            <div class="logo-icon">Q</div>
+            <div class="logo-text">Quic<span>Tax</span><span class="logo-tag">.ca</span></div>
+          </a>
+          <p style="font-size: 0.85rem; color: #334155; line-height: 1.6; max-width: 320px; margin-top: 0.75rem;">
+            Fast, modern tax filing for individuals, freelancers, small businesses, and corporations across Canada. Human-assisted tax specialists, not software.
+          </p>
+          <p style="font-size: 0.775rem; color: #475569; margin-top: 0.75rem; font-weight: 600;">
+            📍 Mississauga, ON • Serving All of Canada Online
+          </p>
+        </div>
+
+        <div>
+          <h4 style="color: #0C1B33; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-weight: 800;">Quick Navigation</h4>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; font-size: 0.85rem;">
+            <a href="index.html" style="color: #334155;">Home</a>
+            <a href="services.html" style="color: #334155;">Services</a>
+            <a href="pricing.html" style="color: #334155;">Pricing</a>
+            <a href="cra.html" style="color: #334155;">CRA Hub</a>
+            <a href="tax-articles.html" style="color: #334155;">Tax Articles</a>
+            <a href="about.html" style="color: #334155;">About Us</a>
+            <a href="faq.html" style="color: #334155;">FAQ</a>
+            <a href="contact.html" style="color: #334155;">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="color: #0C1B33; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-weight: 800;">Get In Touch</h4>
+          <p style="font-size: 0.85rem; color: #334155; margin-bottom: 0.75rem;">
+            Ready to file smarter? Message us on WhatsApp or call our hotline.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+            <a href="https://wa.me/12895275237?text=Hi%20QuicTax,%20I'd%20like%20a%20pricing%20quote." target="_blank" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.65rem 1rem; justify-content: center;">
+              💬 Chat on WhatsApp
+            </a>
+            <a href="tel:+12895275237" style="color: #0C1B33; font-weight: 800; font-size: 0.85rem; text-align: center; padding: 0.55rem; background: #FFFFFF; border: 1.5px solid #CBD5E1; border-radius: 4px;">
+              📞 (289) 527-5237
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p style="color: #334155;">© 2026 QuicTax. All rights reserved. <span style="color: #0284C7; font-style: italic; margin-left: 0.5rem; font-weight: 700;">Fast filing. Zero stress.</span></p>
+        <p style="font-size: 0.775rem; color: #475569; font-weight: 600;">Canadian Tax Preparation Service • Mississauga, Ontario, Canada</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/articles-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

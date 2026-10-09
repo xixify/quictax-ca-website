@@ -95,6 +95,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           <nav className="hidden lg:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800">
             {[
               { id: 'services', label: 'Services' },
+              { id: 'pricing', label: 'Pricing' },
               { id: 'calculator', label: 'Tax Estimator' },
               { id: 'cra-hub', label: 'CRA Hub' },
               { id: 'tax-articles', label: 'Tax Articles' },
